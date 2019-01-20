@@ -1,0 +1,38 @@
+* {
+  max-height: 100vh;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+#root a, #root ul{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/* Ska vi importera css-filerna här istället för i berörd fil? eller blir det tosigt?  */
+
+/* @import url("./grids.css"); */
+
+/* @import url("../components/Courses/courses.css");
+@import url("../components/GoBackButton/goBackButton.css");
+@import url("../components/Deadlines/style.css");
+@import url("../components/taskEditAndDelete/TaskModal.css"); */
+
+/* Robins kommentar */
+/* 
+  Importerade den istället i index.js för att den ligger i mappen base(bara för att behålla strukturen).
+*/

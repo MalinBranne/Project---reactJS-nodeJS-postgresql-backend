@@ -1,0 +1,38 @@
+ul {
+    font-size: .8em;
+    margin-bottom:0rem;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+#sidebar {
+ border-right: solid grey 0.5px;
+ margin-right: 5px;
+}
+
+#imgGrid { cursor: pointer;
+    margin-top: 1em;
+    min-height: 40vh;
+    max-height: 40vh;
+  }
+
+#coursesLink #layer {
+
+    background-color:rgba(78, 88, 184, 0.5);
+  }
+  
+  #report #layer {
+  
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+  
+  #studentEnq #layer {
+  
+    background-color:rgba(182, 64, 64, 0.5);
+  }
+  
+  #sidebar #layer {
+    background-color:rgba(46, 131, 61, 0.5);
+  }

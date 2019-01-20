@@ -1,0 +1,26 @@
+.status-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.status-bar > * {
+  margin: .5em;
+}
+
+.course-list-item-progress {
+  height: 20px;
+  min-width: 100px;
+}
+
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+#noCourses {
+  padding: 10px;
+}
+
+#courseList {
+  overflow: scroll;
+}
